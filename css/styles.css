@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #5a7db0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-section {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.job-title {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.story {
+    flex: 2;
+}
+
+.personal-info {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.personal-info p {
+    margin: 8px 0;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.social-media-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon a {
+    display: block;
+    font-size: 32px;
+    color: #333;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon a:hover {
+    color: #0077b5;
+    transform: scale(1.1);
+}
+
+.icon a i.fab.fa-discord:hover {
+    color: #7289da;
+}
+
+.icon a i.fab.fa-instagram:hover {
+    color: #e4405f;
+}
+
+.icon a i.fab.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.icon a i.fab.fa-github:hover {
+    color: #333;
+}
